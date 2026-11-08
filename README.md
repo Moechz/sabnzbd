@@ -29,8 +29,6 @@ SABnzbd on TOS 7 through the App Center:
 
 - **Non-root.** `user: "1000:1000"`; verified on real hardware (the container reports uid 1000).
 - **Entrypoint wrapper** (not a privilege shim): the s6 service manager of the image needs root, so `src/entrypoint.sh` starts SABnzbd directly as the unprivileged container user.
-- **Fixed image tag, never `:latest`**, Docker Hub only, no `privileged`, no `network_mode: host`, and no Docker socket, no `cap_add`.
-- **Health check** probing the service on container port 8080.
 - **Deterministic build**: GNU tar with uid/gid 0 and zeroed timestamps, gzip without a timestamp, plus the review-standards self-check above.
 - **Non-root by construction.** The s6 service manager of the image runs as root, so the wrapper starts SABnzbd directly as `1000:1000`; verified on real hardware with `id` inside the container.
 - **Fixed image tag `5.1.3`**, Docker Hub only, no `privileged`, no `network_mode: host`, no `cap_add`, no Docker socket.
