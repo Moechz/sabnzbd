@@ -1,0 +1,195 @@
+# ===========================================================================
+# Multilingual file for the TOS 7 Docker application "sabnzbddocker".
+# File name MUST be: <appid>.lang.  23-language superset (14 required by TOS).
+# The App Center picks the text matching the user's device language;
+# untranslated nodes fall back to English, which the official guide allows.
+# Fields: name (app title), auth (upstream author), descript (up to 512
+# chars), release_note, important (up to 512 chars).
+# Translations come from tosapp.json "translations"; run
+#   tosdocker lang <app>          to re-render this file
+#   tosdocker translate <app>     to see what still needs translating
+# ===========================================================================
+[en-us]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd is a Usenet downloader. Give it an NZB file or a search result and it downloads, verifies and repairs the files with PAR2, then unpacks them into your download folder - all from a clean web interface. This package runs the LinuxServer.io Docker image as a non-root container and keeps the configuration, database, logs and finished downloads in the application data folder."
+release_note = "1. First release: SABnzbd 5.1.3 from the LinuxServer.io Docker Hub image, running as a non-root container. Configuration, logs and downloads are kept in the application data folder."
+important    = "Requires DockerEngine (installed if missing); add a registry mirror if Docker Hub is unreachable. Open the app and add your Usenet provider, optionally an indexer. Configuration and downloads live in the application data folder - back it up before uninstalling with data removal. TOS Docker applications cannot see shared folders: move finished downloads out with File Manager, or edit docker-compose.yml to mount your share."
+
+[zh-cn]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd 是 Usenet 下载器：给它一个 NZB 或搜索结果，它会下载、用 PAR2 校验修复、再解压到下载目录，全部在干净的网页界面里完成。本应用以非 root 容器运行 LinuxServer.io 的镜像，配置、数据库、日志与下载文件都保存在应用数据目录中。"
+release_note = "1. 首次发布：来自 LinuxServer.io Docker Hub 镜像的 SABnzbd 5.1.3，以非 root 容器运行；配置、日志与下载保存在应用数据目录。"
+important    = "需要 DockerEngine（缺失时应用中心会提示安装）。镜像安装时从 Docker Hub 拉取，无法直连请先配置镜像加速。打开后填写 Usenet 服务商，可选填索引站或 *arr 集成。下载与配置都在应用数据目录，卸载并删除数据前请先备份。与其他 TOS Docker 应用一样访问不到共享文件夹：用文件管理器把完成的文件移出 DockerAppData/sabnzbddocker/downloads，或编辑 docker-compose.yml 挂载自己的共享目录。"
+
+[zh-hk]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd 是 Usenet 下載器：給它一個 NZB 或搜尋結果，它會下載、用 PAR2 校驗修復、再解壓到下载目錄，全部在乾淨的網頁介面裡完成。本應用以非 root 容器執行 LinuxServer.io 的映像，設定、資料庫、日誌與下載檔案都保存在應用資料目錄中。"
+release_note = "1. 首次發佈：來自 LinuxServer.io Docker Hub 映像的 SABnzbd 5.1.3，以非 root 容器執行；設定、日誌與下載保存在應用資料目錄。"
+important    = "需要 DockerEngine（缺少時應用中心會提示安裝）。映像安裝時從 Docker Hub 下載，無法直連請先設定映像加速。開啟後填寫 Usenet 服務商，可選填索引站或 *arr 整合。下載與設定都在應用資料目錄，解除安裝並刪除資料前請先備份。與其他 TOS Docker 應用一樣存取不到共享資料夾：用檔案管理器把完成的檔案移出 DockerAppData/sabnzbddocker/downloads，或編輯 docker-compose.yml 掛載自己的共享目錄。"
+
+[fr-fr]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd is a Usenet downloader. Give it an NZB file or a search result and it downloads, verifies and repairs the files with PAR2, then unpacks them into your download folder - all from a clean web interface. This package runs the LinuxServer.io Docker image as a non-root container and keeps the configuration, database, logs and finished downloads in the application data folder."
+release_note = "1. First release: SABnzbd 5.1.3 from the LinuxServer.io Docker Hub image, running as a non-root container. Configuration, logs and downloads are kept in the application data folder."
+important    = "Requires DockerEngine (installed if missing); add a registry mirror if Docker Hub is unreachable. Open the app and add your Usenet provider, optionally an indexer. Configuration and downloads live in the application data folder - back it up before uninstalling with data removal. TOS Docker applications cannot see shared folders: move finished downloads out with File Manager, or edit docker-compose.yml to mount your share."
+
+[de-de]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd is a Usenet downloader. Give it an NZB file or a search result and it downloads, verifies and repairs the files with PAR2, then unpacks them into your download folder - all from a clean web interface. This package runs the LinuxServer.io Docker image as a non-root container and keeps the configuration, database, logs and finished downloads in the application data folder."
+release_note = "1. First release: SABnzbd 5.1.3 from the LinuxServer.io Docker Hub image, running as a non-root container. Configuration, logs and downloads are kept in the application data folder."
+important    = "Requires DockerEngine (installed if missing); add a registry mirror if Docker Hub is unreachable. Open the app and add your Usenet provider, optionally an indexer. Configuration and downloads live in the application data folder - back it up before uninstalling with data removal. TOS Docker applications cannot see shared folders: move finished downloads out with File Manager, or edit docker-compose.yml to mount your share."
+
+[it-it]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd is a Usenet downloader. Give it an NZB file or a search result and it downloads, verifies and repairs the files with PAR2, then unpacks them into your download folder - all from a clean web interface. This package runs the LinuxServer.io Docker image as a non-root container and keeps the configuration, database, logs and finished downloads in the application data folder."
+release_note = "1. First release: SABnzbd 5.1.3 from the LinuxServer.io Docker Hub image, running as a non-root container. Configuration, logs and downloads are kept in the application data folder."
+important    = "Requires DockerEngine (installed if missing); add a registry mirror if Docker Hub is unreachable. Open the app and add your Usenet provider, optionally an indexer. Configuration and downloads live in the application data folder - back it up before uninstalling with data removal. TOS Docker applications cannot see shared folders: move finished downloads out with File Manager, or edit docker-compose.yml to mount your share."
+
+[es-es]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd is a Usenet downloader. Give it an NZB file or a search result and it downloads, verifies and repairs the files with PAR2, then unpacks them into your download folder - all from a clean web interface. This package runs the LinuxServer.io Docker image as a non-root container and keeps the configuration, database, logs and finished downloads in the application data folder."
+release_note = "1. First release: SABnzbd 5.1.3 from the LinuxServer.io Docker Hub image, running as a non-root container. Configuration, logs and downloads are kept in the application data folder."
+important    = "Requires DockerEngine (installed if missing); add a registry mirror if Docker Hub is unreachable. Open the app and add your Usenet provider, optionally an indexer. Configuration and downloads live in the application data folder - back it up before uninstalling with data removal. TOS Docker applications cannot see shared folders: move finished downloads out with File Manager, or edit docker-compose.yml to mount your share."
+
+[hu-hu]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd is a Usenet downloader. Give it an NZB file or a search result and it downloads, verifies and repairs the files with PAR2, then unpacks them into your download folder - all from a clean web interface. This package runs the LinuxServer.io Docker image as a non-root container and keeps the configuration, database, logs and finished downloads in the application data folder."
+release_note = "1. First release: SABnzbd 5.1.3 from the LinuxServer.io Docker Hub image, running as a non-root container. Configuration, logs and downloads are kept in the application data folder."
+important    = "Requires DockerEngine (installed if missing); add a registry mirror if Docker Hub is unreachable. Open the app and add your Usenet provider, optionally an indexer. Configuration and downloads live in the application data folder - back it up before uninstalling with data removal. TOS Docker applications cannot see shared folders: move finished downloads out with File Manager, or edit docker-compose.yml to mount your share."
+
+[ja-jp]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd is a Usenet downloader. Give it an NZB file or a search result and it downloads, verifies and repairs the files with PAR2, then unpacks them into your download folder - all from a clean web interface. This package runs the LinuxServer.io Docker image as a non-root container and keeps the configuration, database, logs and finished downloads in the application data folder."
+release_note = "1. First release: SABnzbd 5.1.3 from the LinuxServer.io Docker Hub image, running as a non-root container. Configuration, logs and downloads are kept in the application data folder."
+important    = "Requires DockerEngine (installed if missing); add a registry mirror if Docker Hub is unreachable. Open the app and add your Usenet provider, optionally an indexer. Configuration and downloads live in the application data folder - back it up before uninstalling with data removal. TOS Docker applications cannot see shared folders: move finished downloads out with File Manager, or edit docker-compose.yml to mount your share."
+
+[ko-kr]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd is a Usenet downloader. Give it an NZB file or a search result and it downloads, verifies and repairs the files with PAR2, then unpacks them into your download folder - all from a clean web interface. This package runs the LinuxServer.io Docker image as a non-root container and keeps the configuration, database, logs and finished downloads in the application data folder."
+release_note = "1. First release: SABnzbd 5.1.3 from the LinuxServer.io Docker Hub image, running as a non-root container. Configuration, logs and downloads are kept in the application data folder."
+important    = "Requires DockerEngine (installed if missing); add a registry mirror if Docker Hub is unreachable. Open the app and add your Usenet provider, optionally an indexer. Configuration and downloads live in the application data folder - back it up before uninstalling with data removal. TOS Docker applications cannot see shared folders: move finished downloads out with File Manager, or edit docker-compose.yml to mount your share."
+
+[pl-pl]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd is a Usenet downloader. Give it an NZB file or a search result and it downloads, verifies and repairs the files with PAR2, then unpacks them into your download folder - all from a clean web interface. This package runs the LinuxServer.io Docker image as a non-root container and keeps the configuration, database, logs and finished downloads in the application data folder."
+release_note = "1. First release: SABnzbd 5.1.3 from the LinuxServer.io Docker Hub image, running as a non-root container. Configuration, logs and downloads are kept in the application data folder."
+important    = "Requires DockerEngine (installed if missing); add a registry mirror if Docker Hub is unreachable. Open the app and add your Usenet provider, optionally an indexer. Configuration and downloads live in the application data folder - back it up before uninstalling with data removal. TOS Docker applications cannot see shared folders: move finished downloads out with File Manager, or edit docker-compose.yml to mount your share."
+
+[ru-ru]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd is a Usenet downloader. Give it an NZB file or a search result and it downloads, verifies and repairs the files with PAR2, then unpacks them into your download folder - all from a clean web interface. This package runs the LinuxServer.io Docker image as a non-root container and keeps the configuration, database, logs and finished downloads in the application data folder."
+release_note = "1. First release: SABnzbd 5.1.3 from the LinuxServer.io Docker Hub image, running as a non-root container. Configuration, logs and downloads are kept in the application data folder."
+important    = "Requires DockerEngine (installed if missing); add a registry mirror if Docker Hub is unreachable. Open the app and add your Usenet provider, optionally an indexer. Configuration and downloads live in the application data folder - back it up before uninstalling with data removal. TOS Docker applications cannot see shared folders: move finished downloads out with File Manager, or edit docker-compose.yml to mount your share."
+
+[tr-tr]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd is a Usenet downloader. Give it an NZB file or a search result and it downloads, verifies and repairs the files with PAR2, then unpacks them into your download folder - all from a clean web interface. This package runs the LinuxServer.io Docker image as a non-root container and keeps the configuration, database, logs and finished downloads in the application data folder."
+release_note = "1. First release: SABnzbd 5.1.3 from the LinuxServer.io Docker Hub image, running as a non-root container. Configuration, logs and downloads are kept in the application data folder."
+important    = "Requires DockerEngine (installed if missing); add a registry mirror if Docker Hub is unreachable. Open the app and add your Usenet provider, optionally an indexer. Configuration and downloads live in the application data folder - back it up before uninstalling with data removal. TOS Docker applications cannot see shared folders: move finished downloads out with File Manager, or edit docker-compose.yml to mount your share."
+
+[pt-pt]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd is a Usenet downloader. Give it an NZB file or a search result and it downloads, verifies and repairs the files with PAR2, then unpacks them into your download folder - all from a clean web interface. This package runs the LinuxServer.io Docker image as a non-root container and keeps the configuration, database, logs and finished downloads in the application data folder."
+release_note = "1. First release: SABnzbd 5.1.3 from the LinuxServer.io Docker Hub image, running as a non-root container. Configuration, logs and downloads are kept in the application data folder."
+important    = "Requires DockerEngine (installed if missing); add a registry mirror if Docker Hub is unreachable. Open the app and add your Usenet provider, optionally an indexer. Configuration and downloads live in the application data folder - back it up before uninstalling with data removal. TOS Docker applications cannot see shared folders: move finished downloads out with File Manager, or edit docker-compose.yml to mount your share."
+
+[ar-sa]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd is a Usenet downloader. Give it an NZB file or a search result and it downloads, verifies and repairs the files with PAR2, then unpacks them into your download folder - all from a clean web interface. This package runs the LinuxServer.io Docker image as a non-root container and keeps the configuration, database, logs and finished downloads in the application data folder."
+release_note = "1. First release: SABnzbd 5.1.3 from the LinuxServer.io Docker Hub image, running as a non-root container. Configuration, logs and downloads are kept in the application data folder."
+important    = "Requires DockerEngine (installed if missing); add a registry mirror if Docker Hub is unreachable. Open the app and add your Usenet provider, optionally an indexer. Configuration and downloads live in the application data folder - back it up before uninstalling with data removal. TOS Docker applications cannot see shared folders: move finished downloads out with File Manager, or edit docker-compose.yml to mount your share."
+
+[cs-cz]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd is a Usenet downloader. Give it an NZB file or a search result and it downloads, verifies and repairs the files with PAR2, then unpacks them into your download folder - all from a clean web interface. This package runs the LinuxServer.io Docker image as a non-root container and keeps the configuration, database, logs and finished downloads in the application data folder."
+release_note = "1. First release: SABnzbd 5.1.3 from the LinuxServer.io Docker Hub image, running as a non-root container. Configuration, logs and downloads are kept in the application data folder."
+important    = "Requires DockerEngine (installed if missing); add a registry mirror if Docker Hub is unreachable. Open the app and add your Usenet provider, optionally an indexer. Configuration and downloads live in the application data folder - back it up before uninstalling with data removal. TOS Docker applications cannot see shared folders: move finished downloads out with File Manager, or edit docker-compose.yml to mount your share."
+
+[he-il]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd is a Usenet downloader. Give it an NZB file or a search result and it downloads, verifies and repairs the files with PAR2, then unpacks them into your download folder - all from a clean web interface. This package runs the LinuxServer.io Docker image as a non-root container and keeps the configuration, database, logs and finished downloads in the application data folder."
+release_note = "1. First release: SABnzbd 5.1.3 from the LinuxServer.io Docker Hub image, running as a non-root container. Configuration, logs and downloads are kept in the application data folder."
+important    = "Requires DockerEngine (installed if missing); add a registry mirror if Docker Hub is unreachable. Open the app and add your Usenet provider, optionally an indexer. Configuration and downloads live in the application data folder - back it up before uninstalling with data removal. TOS Docker applications cannot see shared folders: move finished downloads out with File Manager, or edit docker-compose.yml to mount your share."
+
+[id-id]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd is a Usenet downloader. Give it an NZB file or a search result and it downloads, verifies and repairs the files with PAR2, then unpacks them into your download folder - all from a clean web interface. This package runs the LinuxServer.io Docker image as a non-root container and keeps the configuration, database, logs and finished downloads in the application data folder."
+release_note = "1. First release: SABnzbd 5.1.3 from the LinuxServer.io Docker Hub image, running as a non-root container. Configuration, logs and downloads are kept in the application data folder."
+important    = "Requires DockerEngine (installed if missing); add a registry mirror if Docker Hub is unreachable. Open the app and add your Usenet provider, optionally an indexer. Configuration and downloads live in the application data folder - back it up before uninstalling with data removal. TOS Docker applications cannot see shared folders: move finished downloads out with File Manager, or edit docker-compose.yml to mount your share."
+
+[nb-no]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd is a Usenet downloader. Give it an NZB file or a search result and it downloads, verifies and repairs the files with PAR2, then unpacks them into your download folder - all from a clean web interface. This package runs the LinuxServer.io Docker image as a non-root container and keeps the configuration, database, logs and finished downloads in the application data folder."
+release_note = "1. First release: SABnzbd 5.1.3 from the LinuxServer.io Docker Hub image, running as a non-root container. Configuration, logs and downloads are kept in the application data folder."
+important    = "Requires DockerEngine (installed if missing); add a registry mirror if Docker Hub is unreachable. Open the app and add your Usenet provider, optionally an indexer. Configuration and downloads live in the application data folder - back it up before uninstalling with data removal. TOS Docker applications cannot see shared folders: move finished downloads out with File Manager, or edit docker-compose.yml to mount your share."
+
+[nl-nl]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd is a Usenet downloader. Give it an NZB file or a search result and it downloads, verifies and repairs the files with PAR2, then unpacks them into your download folder - all from a clean web interface. This package runs the LinuxServer.io Docker image as a non-root container and keeps the configuration, database, logs and finished downloads in the application data folder."
+release_note = "1. First release: SABnzbd 5.1.3 from the LinuxServer.io Docker Hub image, running as a non-root container. Configuration, logs and downloads are kept in the application data folder."
+important    = "Requires DockerEngine (installed if missing); add a registry mirror if Docker Hub is unreachable. Open the app and add your Usenet provider, optionally an indexer. Configuration and downloads live in the application data folder - back it up before uninstalling with data removal. TOS Docker applications cannot see shared folders: move finished downloads out with File Manager, or edit docker-compose.yml to mount your share."
+
+[sv-se]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd is a Usenet downloader. Give it an NZB file or a search result and it downloads, verifies and repairs the files with PAR2, then unpacks them into your download folder - all from a clean web interface. This package runs the LinuxServer.io Docker image as a non-root container and keeps the configuration, database, logs and finished downloads in the application data folder."
+release_note = "1. First release: SABnzbd 5.1.3 from the LinuxServer.io Docker Hub image, running as a non-root container. Configuration, logs and downloads are kept in the application data folder."
+important    = "Requires DockerEngine (installed if missing); add a registry mirror if Docker Hub is unreachable. Open the app and add your Usenet provider, optionally an indexer. Configuration and downloads live in the application data folder - back it up before uninstalling with data removal. TOS Docker applications cannot see shared folders: move finished downloads out with File Manager, or edit docker-compose.yml to mount your share."
+
+[th-th]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd is a Usenet downloader. Give it an NZB file or a search result and it downloads, verifies and repairs the files with PAR2, then unpacks them into your download folder - all from a clean web interface. This package runs the LinuxServer.io Docker image as a non-root container and keeps the configuration, database, logs and finished downloads in the application data folder."
+release_note = "1. First release: SABnzbd 5.1.3 from the LinuxServer.io Docker Hub image, running as a non-root container. Configuration, logs and downloads are kept in the application data folder."
+important    = "Requires DockerEngine (installed if missing); add a registry mirror if Docker Hub is unreachable. Open the app and add your Usenet provider, optionally an indexer. Configuration and downloads live in the application data folder - back it up before uninstalling with data removal. TOS Docker applications cannot see shared folders: move finished downloads out with File Manager, or edit docker-compose.yml to mount your share."
+
+[vi-vn]
+name         = "SABnzbd"
+auth         = "SABnzbd"
+version      = "@@VERSION@@"
+descript     = "SABnzbd is a Usenet downloader. Give it an NZB file or a search result and it downloads, verifies and repairs the files with PAR2, then unpacks them into your download folder - all from a clean web interface. This package runs the LinuxServer.io Docker image as a non-root container and keeps the configuration, database, logs and finished downloads in the application data folder."
+release_note = "1. First release: SABnzbd 5.1.3 from the LinuxServer.io Docker Hub image, running as a non-root container. Configuration, logs and downloads are kept in the application data folder."
+important    = "Requires DockerEngine (installed if missing); add a registry mirror if Docker Hub is unreachable. Open the app and add your Usenet provider, optionally an indexer. Configuration and downloads live in the application data folder - back it up before uninstalling with data removal. TOS Docker applications cannot see shared folders: move finished downloads out with File Manager, or edit docker-compose.yml to mount your share."
+
